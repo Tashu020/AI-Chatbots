@@ -1,4 +1,4 @@
-# 🚀 Arnav's AI-Powered Chatbots
+# 🚀 AI-Powered Chatbots
 
 This repository showcases multiple **AI-driven chatbots**, each designed for a specific use case. Built using **Google Gemini**, **Streamlit**, and **FAISS**, these chatbots demonstrate expertise in **NLP, embeddings, vector search, and AI-driven document/image analysis**.
 
