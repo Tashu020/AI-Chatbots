@@ -7,7 +7,7 @@ This repository showcases multiple **AI-driven chatbots**, each designed for a s
 ✅ **AI-powered responses** using **Gemini models**  
 ✅ **Streamlit UI** for seamless interaction  
 ✅ **PDF Q&A chatbot** with **FAISS vector search**  
-✅ **Invoice Reader** using **OCR & AI-powered insights**  
+✅ **Invoice Reader** using **OCR (Tesseract) & AI-powered insights**   
 ✅ **Conversational memory** for better user engagement  
 ✅ **Multi-modal AI** (text + image processing)
 
@@ -25,7 +25,7 @@ This repository showcases multiple **AI-driven chatbots**, each designed for a s
 *   Supports **large document processing** efficiently.
 
 ### 3️⃣ **Invoice Reader Chatbot** (`invoice_reader.py`)
-*   Uses **OCR (Optical Character Recognition)** and AI-powered insights to analyze invoices.
+*   Uses **OCR (Tesseract via pytesseract)** and AI-powered insights to analyze invoices.
 *   Extracts key details like **invoice number, total amount, due date, and vendor details**.
 *   Utilizes **Gemini-1.5-pro-latest** for **context-aware document understanding**.
 *   **Real-world application:** Can be used in **financial automation** or **business workflows**.
@@ -48,7 +48,7 @@ This repository showcases multiple **AI-driven chatbots**, each designed for a s
 *   **LangChain** for document processing
 *   **FAISS (Facebook AI Similarity Search)** for **efficient vector search**
 *   **Streamlit** for creating interactive AI-powered web apps
-*   **OCR (Optical Character Recognition)** for invoice analysis
+*   **OCR (Optical Character Recognition) via Tesseract & pytesseract** for invoice analysis
 *   **Environment Variables (.env)** for secure API key management
 
 ---
