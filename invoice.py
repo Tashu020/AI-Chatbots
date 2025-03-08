@@ -9,6 +9,9 @@ import google.generativeai as genai
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+
 # Function to perform OCR (extract text from image)
 def extract_text_from_image(uploaded_file):
     if uploaded_file is not None:
@@ -34,7 +37,7 @@ input_query = st.text_input("Ask a question about the invoice:", key="input")
 if uploaded_file:
     # Display uploaded image
     image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded Invoice", use_column_width=True)
+    st.image(image, caption="Uploaded Invoice", use_container_width=True)
 
     # Perform OCR
     extracted_text = extract_text_from_image(uploaded_file)
