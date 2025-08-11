@@ -53,21 +53,6 @@ This repository showcases multiple **AI-driven chatbots**, each designed for a s
 
 ---
 
-## 🚀 Installation & Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/arnavjoshi/ai-chatbots.git
-cd ai-chatbots
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the chatbot app
-streamlit run app.py
-```
-
----
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
