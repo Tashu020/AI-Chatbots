@@ -58,8 +58,3 @@ This repository showcases multiple **AI-driven chatbots**, each designed for a s
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## 📩 Contact
-For any queries or collaborations, feel free to reach out:
-📧 Email: arnavjoshi020@gmail.com  
-🔗 LinkedIn: [[linkedin.com/in/arnavjoshi](https://linkedin.com/in/arnavjoshi)](https://www.linkedin.com/in/arnav-joshi-038693291/)
